@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0D4E7E150BFEBD0005235D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0D4E7D150BFEBD0005235D /* UIKit.framework */; };
+		0A0D4E80150BFEBD0005235D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0D4E7F150BFEBD0005235D /* Foundation.framework */; };
+		0A0D4E82150BFEBD0005235D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0D4E81150BFEBD0005235D /* CoreGraphics.framework */; };
+		0A0D4E88150BFEBD0005235D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A0D4E86150BFEBD0005235D /* InfoPlist.strings */; };
+		0A0D4E8A150BFEBD0005235D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D4E89150BFEBD0005235D /* main.m */; };
+		0A0D4E96150BFF220005235D /* AudioRecorderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D4E95150BFF220005235D /* AudioRecorderAppDelegate.m */; };
+		0A0D4E98150C00680005235D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0D4E97150C00680005235D /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A0D4E79150BFEBD0005235D /* AudioQueueServicesExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioQueueServicesExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0D4E7D150BFEBD0005235D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A0D4E7F150BFEBD0005235D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A0D4E81150BFEBD0005235D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A0D4E85150BFEBD0005235D /* AudioQueueServicesExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioQueueServicesExample-Info.plist"; sourceTree = "<group>"; };
+		0A0D4E87150BFEBD0005235D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A0D4E89150BFEBD0005235D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A0D4E8B150BFEBD0005235D /* AudioQueueServicesExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioQueueServicesExample-Prefix.pch"; sourceTree = "<group>"; };
+		0A0D4E94150BFF220005235D /* AudioRecorderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioRecorderAppDelegate.h; sourceTree = "<group>"; };
+		0A0D4E95150BFF220005235D /* AudioRecorderAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioRecorderAppDelegate.m; sourceTree = "<group>"; };
+		0A0D4E97150C00680005235D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A0D4E76150BFEBD0005235D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0D4E98150C00680005235D /* AudioToolbox.framework in Frameworks */,
+				0A0D4E7E150BFEBD0005235D /* UIKit.framework in Frameworks */,
+				0A0D4E80150BFEBD0005235D /* Foundation.framework in Frameworks */,
+				0A0D4E82150BFEBD0005235D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A0D4E6E150BFEBD0005235D = {
+			isa = PBXGroup;
+			children = (
+				0A0D4E83150BFEBD0005235D /* AudioQueueServicesExample */,
+				0A0D4E7C150BFEBD0005235D /* Frameworks */,
+				0A0D4E7A150BFEBD0005235D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A0D4E7A150BFEBD0005235D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A0D4E79150BFEBD0005235D /* AudioQueueServicesExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A0D4E7C150BFEBD0005235D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A0D4E97150C00680005235D /* AudioToolbox.framework */,
+				0A0D4E7D150BFEBD0005235D /* UIKit.framework */,
+				0A0D4E7F150BFEBD0005235D /* Foundation.framework */,
+				0A0D4E81150BFEBD0005235D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A0D4E83150BFEBD0005235D /* AudioQueueServicesExample */ = {
+			isa = PBXGroup;
+			children = (
+				0A0D4E94150BFF220005235D /* AudioRecorderAppDelegate.h */,
+				0A0D4E95150BFF220005235D /* AudioRecorderAppDelegate.m */,
+				0A0D4E84150BFEBD0005235D /* Supporting Files */,
+			);
+			path = AudioQueueServicesExample;
+			sourceTree = "<group>";
+		};
+		0A0D4E84150BFEBD0005235D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A0D4E85150BFEBD0005235D /* AudioQueueServicesExample-Info.plist */,
+				0A0D4E86150BFEBD0005235D /* InfoPlist.strings */,
+				0A0D4E89150BFEBD0005235D /* main.m */,
+				0A0D4E8B150BFEBD0005235D /* AudioQueueServicesExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A0D4E78150BFEBD0005235D /* AudioQueueServicesExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0D4E91150BFEBD0005235D /* Build configuration list for PBXNativeTarget "AudioQueueServicesExample" */;
+			buildPhases = (
+				0A0D4E75150BFEBD0005235D /* Sources */,
+				0A0D4E76150BFEBD0005235D /* Frameworks */,
+				0A0D4E77150BFEBD0005235D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioQueueServicesExample;
+			productName = AudioQueueServicesExample;
+			productReference = 0A0D4E79150BFEBD0005235D /* AudioQueueServicesExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A0D4E70150BFEBD0005235D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0A0D4E73150BFEBD0005235D /* Build configuration list for PBXProject "AudioQueueServicesExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A0D4E6E150BFEBD0005235D;
+			productRefGroup = 0A0D4E7A150BFEBD0005235D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A0D4E78150BFEBD0005235D /* AudioQueueServicesExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A0D4E77150BFEBD0005235D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0D4E88150BFEBD0005235D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A0D4E75150BFEBD0005235D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0D4E8A150BFEBD0005235D /* main.m in Sources */,
+				0A0D4E96150BFF220005235D /* AudioRecorderAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A0D4E86150BFEBD0005235D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A0D4E87150BFEBD0005235D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A0D4E8F150BFEBD0005235D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A0D4E90150BFEBD0005235D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A0D4E92150BFEBD0005235D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioQueueServicesExample/AudioQueueServicesExample-Prefix.pch";
+				INFOPLIST_FILE = "AudioQueueServicesExample/AudioQueueServicesExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A0D4E93150BFEBD0005235D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioQueueServicesExample/AudioQueueServicesExample-Prefix.pch";
+				INFOPLIST_FILE = "AudioQueueServicesExample/AudioQueueServicesExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A0D4E73150BFEBD0005235D /* Build configuration list for PBXProject "AudioQueueServicesExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0D4E8F150BFEBD0005235D /* Debug */,
+				0A0D4E90150BFEBD0005235D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A0D4E91150BFEBD0005235D /* Build configuration list for PBXNativeTarget "AudioQueueServicesExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0D4E92150BFEBD0005235D /* Debug */,
+				0A0D4E93150BFEBD0005235D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A0D4E70150BFEBD0005235D /* Project object */;
+}
